@@ -122,5 +122,8 @@ Route::group(['middleware'=>['auth']],function(){
 
 });
 
+<<<<<<< HEAD
 //Prueba commit
+=======
+>>>>>>> daa7715146172f63d9ab3a3e0d2c744a72f57a0e
 //Route::get('/home', 'HomeController@index')->name('home');
