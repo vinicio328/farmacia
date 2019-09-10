@@ -46654,7 +46654,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 me.articulo = '';
                 me.cantidad = 0;
                 me.precio = 0;
-                me.stock = 0, me.codigo = '', me.descuento = 0, me.arrayDetalle = [];
+				me.stock = 0;
+                me.codigo = '';
+                me.descuento = 0;
+                me.arrayDetalle = [];
             }).catch(function (error) {
                 console.log(error);
             });
