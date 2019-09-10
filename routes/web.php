@@ -122,4 +122,5 @@ Route::group(['middleware'=>['auth']],function(){
 
 });
 
+//Prueba commit
 //Route::get('/home', 'HomeController@index')->name('home');
