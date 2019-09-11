@@ -7,7 +7,7 @@
     <table class="table table-striped table-bordered" style="width:100%" id="users-table">
         <thead>
         <tr>
-            <th>Id</th>
+            <th>Codigo</th>
             <th>Nombre</th>
             <th>Descripcion</th>
             <th>Precio Venta</th>

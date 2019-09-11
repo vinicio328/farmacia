@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Sistema Ventas Laravel Vue Js- IncanatoIT">
-  <meta name="author" content="Incanatoit.com">
-  <meta name="keyword" content="Sistema ventas Laravel Vue Js, Sistema compras Laravel Vue Js">
+  <meta name="author" content="UMG">
+  <meta name="description" content="Administracion de sistema, Farmacias Galeno">
+    <meta name="author" content="UMG">
 
-  <title>Sistema Farmacias Galeno</title>
+
+  <title>Farmacias Galeno - Administracion</title>
 
   <link href="css/plantilla.css" rel="stylesheet">
 
