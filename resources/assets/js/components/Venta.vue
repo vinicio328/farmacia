@@ -51,6 +51,9 @@
                                             <button type="button" @click="verVenta(venta.id)" class="btn btn-success btn-sm">
                                             <i class="icon-eye"></i>
                                             </button> &nbsp;
+                                            <button type="button" @click="pdfVenta(venta.id)" class="btn btn-info btn-sm">
+                                            <i class="icon-doc"></i>
+                                            </button> &nbsp;
                                             <template v-if="venta.estado=='Registrado'">
                                                 <button type="button" class="btn btn-danger btn-sm" @click="desactivarVenta(venta.id)">
                                                     <i class="icon-trash"></i>
@@ -557,7 +560,9 @@
                     console.log(error);
                 });
             },
-
+            pdfVenta(id){
+                window.open('http://localhost:8000/venta/pdf/'+ id + ',' + '_blank');
+            },
             cambiarPagina(page,buscar,criterio){
                 let me = this;
                 //Actualiza la página actual
@@ -686,6 +691,7 @@
                     me.codigo='';
                     me.descuento=0;
                     me.arrayDetalle=[];
+                    window.open('http://localhost:8000/venta/pdf/'+ response.data.id + ',' + '_blank');
 
                 }).catch(function (error) {
                     console.log(error);
