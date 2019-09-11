@@ -26,7 +26,7 @@
                 columns: [
                     { data: 'id', name: 'id' },
                     { data: 'nombre', name: 'nombre' },
-                    { data: 'precio_venta', name: 'precio_venta' },
+                    { data: 'precio_venta', name: 'precio_venta', render: $.fn.dataTable.render.number( ',', '.', 2, 'Q' )},
                     { data: 'stock', name: 'stock' }
                 ],
 				language: {
