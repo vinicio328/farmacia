@@ -12,9 +12,12 @@
 */
 
 Route::get('/','HomeController@index')->name('home');
+Route::get('/productos', 'ProductosController@getIndex')->name('getIndex');
+Route::post('/productos', 'ProductosController@anyData')->name('producto.data');
+
 
 Route::group(['middleware'=>['guest']],function(){
-
+    Route::get('/login', 'Auth\LoginController@showLoginForm');
     Route::post('/login', 'Auth\LoginController@login')->name('login');
 });
 
