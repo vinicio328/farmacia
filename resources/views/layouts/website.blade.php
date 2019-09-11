@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/jquery.smartmenus.bootstrap.css">
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/ie10-viewport-bug-workaround.css">
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/justified-nav.css">
-    <link rel="stylesheet" href="https://static.helloumi.com/webchat-widget/css/main.css">
-
-    <script src="http://www.farmaciasgaleno.com.gt/js/ie-emulation-modes-warning.js"></script>
-    <script src="http://www.farmaciasgaleno.com.gt/js/jquery-3.1.1.min.js"></script>
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-3.3.1.js"></script>
 
 </head>
 <body>
@@ -251,11 +249,11 @@
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
                     <h3>Primeros Auxilios</h3>
-                    <p>Alcohol</p> 
-                    <p>Gasa</p> 
-                    <p>Item 4</p> 
-                    <p>Vendas</p> 
-                    <p>Item 5</p> 
+                    <p>Alcohol</p>
+                    <p>Gasa</p>
+                    <p>Item 4</p>
+                    <p>Vendas</p>
+                    <p>Item 5</p>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
                     <h3>Mama y Bebe</h3>
@@ -275,17 +273,17 @@
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
                     <h3>Miscelaneos</h3>
-                    <p>Item 1</p> 
-                    <p>Item 2</p> 
-                    <p>Item 3</p> 
-                    <p>Item 4</p> 
-                    <p>Item 5</p> 
+                    <p>Item 1</p>
+                    <p>Item 2</p>
+                    <p>Item 3</p>
+                    <p>Item 4</p>
+                    <p>Item 5</p>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
                     <h3>Salud Sexual</h3>
                     <p>Anticonceptivos</p>
                     <p>Preservativos</p>
-                    <p>Pruebas de Embarazo</p>                    
+                    <p>Pruebas de Embarazo</p>
                 </div>
             </div>
 
@@ -303,7 +301,7 @@
             margin-bottom: 25px;
             height: 150px;
         }
-        .footer-links h3 
+        .footer-links h3
         {
             text-align: left;
         }
@@ -314,17 +312,14 @@
     <script src="http://www.farmaciasgaleno.com.gt/js/bootstrap.min.js"></script>
     <script src="http://www.farmaciasgaleno.com.gt/js/ie10-viewport-bug-workaround.js"></script>
     <script src="http://www.farmaciasgaleno.com.gt/js/scale.fix.js"></script>
-    <!--script src="http://www.farmaciasgaleno.com.gt/js/general.js"></script>-->
-    <script src="http://www.farmaciasgaleno.com.gt/js/index.js"></script>
     <script src="http://www.farmaciasgaleno.com.gt/js/jquery.smartmenus.js"></script>
     <script src="http://www.farmaciasgaleno.com.gt/js/jquery.smartmenus.bootstrap.js"></script>
-    <!-- jQuery -->
-    <script src="//code.jquery.com/jquery-3.3.1.js"></script>
+
     <!-- DataTables -->
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <!-- Bootstrap JavaScript -->
     <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-    <script src=//cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
     <!-- App scripts -->
     @stack('scripts')
 
