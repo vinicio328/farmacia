@@ -28,7 +28,10 @@
                     { data: 'nombre', name: 'nombre' },
                     { data: 'precio_venta', name: 'precio_venta' },
                     { data: 'stock', name: 'stock' }
-                ]
+                ],
+				language: {
+					url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+				}
             });
         });
     </script>
