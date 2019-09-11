@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
-    <title>Desarrolo Web</title>
+    <title>Farmacias Galeno</title>
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/jquery.smartmenus.bootstrap.css">
     <link rel="stylesheet" href="http://www.farmaciasgaleno.com.gt/css/ie10-viewport-bug-workaround.css">
