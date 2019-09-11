@@ -164,28 +164,28 @@
 
             @yield('content')
             <div class="row">
-                <div class="col-lg-2 division division-first">
+                <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>NUESTRAS UBICACIONES</h2>
                     <p>Galeno más cerca de ti.</p>
                     <a href="ubicaciones.aspx?horario=false">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-1.jpg">
                     </a>
                 </div>
-                <div class="col-lg-3 division">
+                <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>¿QUÉ ESTÁS BUSCANDO?</h2>
                     <p>Busca tu marca preferida.</p>
                     <a href="productos.aspx?tag=">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-3.jpg">
                     </a>
                 </div>
-                <div class="col-lg-3 division">
+                <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>FARMACIAS EN TURNO</h2>
                     <p>24 horas, los 365 días al año.</p>
                     <a href="ubicaciones.aspx?horario=true">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-4.jpg">
                     </a>
                 </div>
-                <div class="col-lg-3 division division-last">
+                <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>INFORMACIÓN MEDICAMENTOS</h2>
                     <p>Conoce más nuestros productos.</p>
                     <a href="productos.aspx?tag=">
@@ -195,14 +195,14 @@
             </div>
 
             <div class="row row-division2">
-                <div class="col-lg-2 division2 division2-first">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-1.png">
                     <h2>Llámanos</h2>
                     <a href="tel:25069595">
                         <h2 style="font-weight: bold;">2506-9595</h2>
                     </a>
                 </div>
-                <div class="col-lg-2 division2">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-2.png">
                     <h2>Trabaja</h2>
                     <p>con nosotros y forma parte de la familia Galeno.</p>
@@ -211,7 +211,7 @@
                         <p class="text-danger" style="font-size: 12px;">Ingresa tu curriculum aquí</p>
                     </a>
                 </div>
-                <div class="col-lg-2 division2">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-3.png">
                     <h2>Aseguradoras</h2>
                     <p>con las que trabajamos.</p>
@@ -219,7 +219,7 @@
                         <img src="http://www.farmaciasgaleno.com.gt/images/division2-3-1.png">
                     </a>
                 </div>
-                <div class="col-lg-2 division2">
+                <div class="col-xs-6 col-sm-6 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-4.png">
                     <h2>Síguenos</h2>
                     <p>en nuestras redes sociales.</p>
@@ -230,7 +230,7 @@
                     <a style="background-color: #fff;" href="https://www.twitter.com/farmaciasgaleno">
                         <img src="http://www.farmaciasgaleno.com.gt/images/twitter-footer.png" width="40"></a>
                 </div>
-                <div class="col-lg-3 division2 division2-last">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offet-0 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-5.png">
                     <a href="contactenos.aspx">
                         <h2>Contáctenos</h2>
@@ -241,41 +241,51 @@
 
 
             <div id="menuFooter" class="row">
-                <div class="col-lg-2 division3">
-                    <h2>Medicamentos</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Medicamentos</h3>
                     <p>Analgesicos</p>
                     <p>Anestesicos</p>
                     <p>Antibióticos</p>
                     <p>Aparato Cardiovascular</p>
                     <p>Aparato Respiratorio</p>
                 </div>
-                <div class="col-lg-2 division3">
-                    <h2>Primeros Auxilios</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Primeros Auxilios</h3>
+                    <p>Alcohol</p> 
+                    <p>Gasa</p> 
+                    <p>Item 4</p> 
+                    <p>Vendas</p> 
+                    <p>Item 5</p> 
                 </div>
-                <div class="col-lg-2 division3">
-                    <h2>Mama y Bebe</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Mama y Bebe</h3>
                     <p>Accesorios para el bebe </p>
                     <p>Cosméticos para el bebe</p>
                     <p>Fórmulas y cereales infantiles</p>
                     <p>Hogar</p>
                     <p>Pañales</p>
                 </div>
-                <div class="col-lg-2 division3">
-                    <h2>Cuidado Personal</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Cuidado Personal</h3>
                     <p>Accesorios</p>
                     <p>Cuidado Bucal</p>
                     <p>Cuidado de la Piel</p>
                     <p>Cuidado del Cabello</p>
                     <p>Cuidado Femenino</p>
                 </div>
-                <div class="col-lg-2 division3">
-                    <h2>Miscelaneos</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Miscelaneos</h3>
+                    <p>Item 1</p> 
+                    <p>Item 2</p> 
+                    <p>Item 3</p> 
+                    <p>Item 4</p> 
+                    <p>Item 5</p> 
                 </div>
-                <div class="col-lg-2 division3">
-                    <h2>Salud Sexual</h2>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 footer-links">
+                    <h3>Salud Sexual</h3>
                     <p>Anticonceptivos</p>
                     <p>Preservativos</p>
-                    <p>Pruebas de Embarazo</p>
+                    <p>Pruebas de Embarazo</p>                    
                 </div>
             </div>
 
@@ -284,6 +294,20 @@
             </footer>
         </div>
     </div>
+
+    <style type="text/css">
+        .footer-links
+        {
+            color: #332f7c;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            height: 150px;
+        }
+        .footer-links h3 
+        {
+            text-align: left;
+        }
+    </style>
 
     <!-- Scripts -->
     <!-- <script src="{{ asset('js/app.js') }}"></script> -->
