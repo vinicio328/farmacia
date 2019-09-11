@@ -27,19 +27,19 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="/home" style="float: left;">
+                            <a href="#" style="float: left;">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/logo.png" width="225"/>
                             </a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="promociones.aspx">
+                            <a href="#">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/descargar-suplemento.png">
                             </a>
                         </li>
                         <li>
-                            <a href="ubicaciones.aspx?horario=false">
+                            <a href="#">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/nuestras-ubicaciones.png">
                             </a>
                         </li>
@@ -63,98 +63,98 @@
                         Carga Menu index.js
                     </ul>-->
                     <ul id="ulMenu" class="nav navbar-nav" data-smartmenus-id="15681785530500994">
-                        <li><a href="productos.aspx?tag=Medicamentos" class="has-submenu" id="sm-14823422684210542-1" aria-haspopup="true" aria-controls="sm-14823422684210542-2" aria-expanded="false">
+                        <li><a href="#" class="has-submenu" id="sm-14823422684210542-1" aria-haspopup="true" aria-controls="sm-14823422684210542-2" aria-expanded="false">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-1.png">&nbsp;Medicamentos <span class="caret"></span></a>
                             <ul class="dropdown-menu" id="sm-14823422684210542-2" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-1" aria-expanded="false">
-                                <a href="productos.aspx?tag=Medicamentos"></a>
-                                <li><a href="productos.aspx?tag=Medicamentos"></a><a href="productos.aspx?tag=Analgesicos">Analgésicos </a></li>
-                                <li><a href="productos.aspx?tag=Anestesicos">Anestésicos </a></li>
-                                <li><a href="productos.aspx?tag=Antibioticos">Antibióticos </a></li>
-                                <li><a href="productos.aspx?tag=Aparato Cardiovascular">Aparato Cardiovascular </a></li>
-                                <li><a href="productos.aspx?tag=Aparato Respiratorio" class="has-submenu" id="sm-14823422684210542-3" aria-haspopup="true" aria-controls="sm-14823422684210542-4" aria-expanded="false">Aparato Respiratorio <span class="caret pull-right"></span></a>
+                                <a href="#"></a>
+                                <li><a href="#"></a><a href="#">Analgésicos </a></li>
+                                <li><a href="#">Anestésicos </a></li>
+                                <li><a href="#">Antibióticos </a></li>
+                                <li><a href="#">Aparato Cardiovascular </a></li>
+                                <li><a href="#" class="has-submenu" id="sm-14823422684210542-3" aria-haspopup="true" aria-controls="sm-14823422684210542-4" aria-expanded="false">Aparato Respiratorio <span class="caret pull-right"></span></a>
                                     <ul class="dropdown-menu" id="sm-14823422684210542-4" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-3" aria-expanded="false">
-                                        <a href="productos.aspx?tag=Aparato Respiratorio"></a>
-                                        <li><a href="productos.aspx?tag=Aparato Respiratorio"></a><a href="productos.aspx?tag=Gripe y Tos">Gripe y Tos</a></li>
-                                        <li><a href="productos.aspx?tag=Antihistaminicos">Antihistamínicos</a></li>
-                                        <li><a href="productos.aspx?tag=Antitusigenos">Antitusígenos</a></li>
-                                        <li><a href="productos.aspx?tag=Asma">Asma</a></li>
-                                        <li><a href="productos.aspx?tag=Revulsivos">Revulsivos</a></li>
+                                        <a href="#"></a>
+                                        <li><a href="#"></a><a href="#">Gripe y Tos</a></li>
+                                        <li><a href="#">Antihistamínicos</a></li>
+                                        <li><a href="#">Antitusígenos</a></li>
+                                        <li><a href="#">Asma</a></li>
+                                        <li><a href="#">Revulsivos</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="productos.aspx?tag=Oftalmologicos">Oftalmológicos </a></li>
-                                <li><a href="productos.aspx?tag=Dermatologicos">Dermatológicos </a></li>
-                                <li><a href="productos.aspx?tag=Diabeticos">Diabeticos </a></li>
-                                <li><a href="productos.aspx?tag=Estomacales" class="has-submenu" id="sm-14823422684210542-5" aria-haspopup="true" aria-controls="sm-14823422684210542-6" aria-expanded="false">Estomacales <span class="caret pull-right"></span></a>
+                                <li><a href="#">Oftalmológicos </a></li>
+                                <li><a href="#">Dermatológicos </a></li>
+                                <li><a href="#">Diabeticos </a></li>
+                                <li><a href="#" class="has-submenu" id="sm-14823422684210542-5" aria-haspopup="true" aria-controls="sm-14823422684210542-6" aria-expanded="false">Estomacales <span class="caret pull-right"></span></a>
                                     <ul class="dropdown-menu" id="sm-14823422684210542-6" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-5" aria-expanded="false">
-                                        <a href="productos.aspx?tag=Estomacales"></a>
-                                        <li><a href="productos.aspx?tag=Estomacales"></a><a href="productos.aspx?tag=Antiparasitarios">Antiparasitarios</a></li>
-                                        <li><a href="productos.aspx?tag=Aparato Digestivo y Metabolismo">Aparato Digestivo y Metabolismo</a></li>
+                                        <a href="#"></a>
+                                        <li><a href="#"></a><a href="#">Antiparasitarios</a></li>
+                                        <li><a href="#">Aparato Digestivo y Metabolismo</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="productos.aspx?tag=Hormonas">Hormonas </a></li>
-                                <li><a href="productos.aspx?tag=Otologicos">Otológicos </a></li>
-                                <li><a href="productos.aspx?tag=Prescripcion Medica">Prescripcion Médica</a></li>
-                                <li><a href="productos.aspx?tag=Genito Urinarios">Prod.Genito Urinarios </a></li>
-                                <li><a href="productos.aspx?tag=Sangre y Hematologia">Sangre y Hematología </a></li>
-                                <li><a href="productos.aspx?tag=Sistema Nervioso" class="has-submenu" id="sm-14823422684210542-9" aria-haspopup="true" aria-controls="sm-14823422684210542-10" aria-expanded="false">Sistema Nervioso <span class="caret pull-right"></span></a>
+                                <li><a href="#">Hormonas </a></li>
+                                <li><a href="#">Otológicos </a></li>
+                                <li><a href="#">Prescripcion Médica</a></li>
+                                <li><a href="#">Prod.Genito Urinarios </a></li>
+                                <li><a href="#">Sangre y Hematología </a></li>
+                                <li><a href="#" class="has-submenu" id="sm-14823422684210542-9" aria-haspopup="true" aria-controls="sm-14823422684210542-10" aria-expanded="false">Sistema Nervioso <span class="caret pull-right"></span></a>
                                     <ul class="dropdown-menu" id="sm-14823422684210542-10" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-9" aria-expanded="false">
-                                        <a href="productos.aspx?tag=Sistema Nervioso"></a>
-                                        <li><a href="productos.aspx?tag=Sistema Nervioso"></a><a href="productos.aspx?tag=Antineuriticos">Antineuríticos</a></li>
-                                        <li><a href="productos.aspx?tag=Antiepilepticos">Antiepilépticos</a></li>
-                                        <li><a href="productos.aspx?tag=Antiparkinsonianos">Antiparkinsonianos</a></li>
-                                        <li><a href="productos.aspx?tag=Psicolepticos">Psicolépticos</a></li>
+                                        <a href="#"></a>
+                                        <li><a href="#"></a><a href="#">Antineuríticos</a></li>
+                                        <li><a href="#">Antiepilépticos</a></li>
+                                        <li><a href="#">Antiparkinsonianos</a></li>
+                                        <li><a href="#">Psicolépticos</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="productos.aspx?tag=Soluciones Hospitalarias">Soluciones Hospitalarias </a></li>
-                                <li><a href="productos.aspx?tag=Suplementos Alimenticios" class="has-submenu" id="sm-14823422684210542-11" aria-haspopup="true" aria-controls="sm-14823422684210542-12" aria-expanded="false">Suplementos Alimenticios <span class="caret pull-right"></span></a>
+                                <li><a href="#">Soluciones Hospitalarias </a></li>
+                                <li><a href="#" class="has-submenu" id="sm-14823422684210542-11" aria-haspopup="true" aria-controls="sm-14823422684210542-12" aria-expanded="false">Suplementos Alimenticios <span class="caret pull-right"></span></a>
                                     <ul class="dropdown-menu" id="sm-14823422684210542-12" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-11" aria-expanded="false">
-                                        <a href="productos.aspx?tag=Suplementos Alimenticios"></a>
-                                        <li><a href="productos.aspx?tag=Suplementos Alimenticios"></a><a href="productos.aspx?tag=Alimentos Generales">Alimentos Generales</a></li>
-                                        <li><a href="productos.aspx?tag=Complementos Alimenticios">Complementos Alimenticios</a></li>
-                                        <li><a href="productos.aspx?tag=Leche">Leche</a></li>
-                                        <li><a href="productos.aspx?tag=Suplementos Alimenticios">Suplementos Alimenticios</a></li>
+                                        <a href="#"></a>
+                                        <li><a href="#"></a><a href="#">Alimentos Generales</a></li>
+                                        <li><a href="#">Complementos Alimenticios</a></li>
+                                        <li><a href="#">Leche</a></li>
+                                        <li><a href="#">Suplementos Alimenticios</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="productos.aspx?tag=Varios">Varios </a></li>
-                                <li><a href="productos.aspx?tag=Vitaminas">Vitaminas </a></li>
+                                <li><a href="#">Varios </a></li>
+                                <li><a href="#">Vitaminas </a></li>
                             </ul>
                         </li>
-                        <li><a href="productos.aspx?tag=Primeros Auxilios">
+                        <li><a href="#">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-2.png">&nbsp;Primeros Auxilios </a></li>
-                        <li><a href="productos.aspx?tag=mama y bebe" class="has-submenu" id="sm-14823422684210542-13" aria-haspopup="true" aria-controls="sm-14823422684210542-14" aria-expanded="false">
+                        <li><a href="#" class="has-submenu" id="sm-14823422684210542-13" aria-haspopup="true" aria-controls="sm-14823422684210542-14" aria-expanded="false">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-3.png">&nbsp;Mamá y Bebé <span class="caret"></span></a>
                             <ul class="dropdown-menu" id="sm-14823422684210542-14" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-13" aria-expanded="false">
-                                <a href="productos.aspx?tag=Mama y Bebe"></a>
-                                <li><a href="productos.aspx?tag=Mama y Bebe"></a><a href="productos.aspx?tag=Accesorios para el bebe ">Accesorios para el bebé  </a></li>
-                                <li><a href="productos.aspx?tag=Cosmeticos para el bebe">Cosméticos para el bebé </a></li>
-                                <li><a href="productos.aspx?tag=Formulas y cereales">Fórmulas y cereales infantiles </a></li>
-                                <li><a href="productos.aspx?tag=Hogar">Hogar </a></li>
-                                <li><a href="productos.aspx?tag=Panales">Pañales </a></li>
-                                <li><a href="productos.aspx?tag=Toallas Humedas">Toallas Humedas </a></li>
+                                <a href="#"></a>
+                                <li><a href="#"></a><a href="#">Accesorios para el bebé  </a></li>
+                                <li><a href="#">Cosméticos para el bebé </a></li>
+                                <li><a href="#">Fórmulas y cereales infantiles </a></li>
+                                <li><a href="#">Hogar </a></li>
+                                <li><a href="#">Pañales </a></li>
+                                <li><a href="#">Toallas Humedas </a></li>
                             </ul>
                         </li>
-                        <li><a href="productos.aspx?tag=Cuidado Personal" class="has-submenu" id="sm-14823422684210542-15" aria-haspopup="true" aria-controls="sm-14823422684210542-16" aria-expanded="false">
+                        <li><a href="#" class="has-submenu" id="sm-14823422684210542-15" aria-haspopup="true" aria-controls="sm-14823422684210542-16" aria-expanded="false">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-4.png">&nbsp;Cuidado Personal <span class="caret"></span></a>
                             <ul class="dropdown-menu" id="sm-14823422684210542-16" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-15" aria-expanded="false">
-                                <a href="productos.aspx?tag=Cuidado Personal"></a>
-                                <li><a href="productos.aspx?tag=Cuidado Personal"></a><a href="productos.aspx?tag=Accesorios">Accesorios </a></li>
-                                <li><a href="productos.aspx?tag=Cuidado Bucal">Cuidado Bucal </a></li>
-                                <li><a href="productos.aspx?tag=Cuidado de la Piel">Cuidado de la Piel </a></li>
-                                <li><a href="productos.aspx?tag=Cuidado del Cabello">Cuidado del Cabello </a></li>
-                                <li><a href="productos.aspx?tag=Cuidado Femenino">Cuidado Femenino </a></li>
-                                <li><a href="productos.aspx?tag=Dermocosmeticos">Dermocosmético </a></li>
-                                <li><a href="productos.aspx?tag=Panales para Adultos">Pañales para Adultos </a></li>
+                                <a href="#"></a>
+                                <li><a href="#"></a><a href="#">Accesorios </a></li>
+                                <li><a href="#">Cuidado Bucal </a></li>
+                                <li><a href="#">Cuidado de la Piel </a></li>
+                                <li><a href="#">Cuidado del Cabello </a></li>
+                                <li><a href="#">Cuidado Femenino </a></li>
+                                <li><a href="#">Dermocosmético </a></li>
+                                <li><a href="#">Pañales para Adultos </a></li>
                             </ul>
                         </li>
-                        <li><a href="productos.aspx?tag=Misceláneos">
+                        <li><a href="#">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-5.png">&nbsp;Misceláneos </a></li>
-                        <li><a href="productos.aspx?tag=Salud Sexual" class="has-submenu" id="sm-14823422684210542-19" aria-haspopup="true" aria-controls="sm-14823422684210542-20" aria-expanded="false">
+                        <li><a href="#" class="has-submenu" id="sm-14823422684210542-19" aria-haspopup="true" aria-controls="sm-14823422684210542-20" aria-expanded="false">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/menu-6.png">&nbsp;Salud Sexual <span class="caret"></span></a>
                             <ul class="dropdown-menu" id="sm-14823422684210542-20" role="group" aria-hidden="true" aria-labelledby="sm-14823422684210542-19" aria-expanded="false">
-                                <a href="productos.aspx?tag=Salud Sexual"></a>
-                                <li><a href="productos.aspx?tag=Salud Sexual"></a><a href="productos.aspx?tag=Anticonceptivo">Anticonceptivos </a></li>
-                                <li><a href="productos.aspx?tag=Preservativos">Preservativos </a></li>
-                                <li><a href="productos.aspx?tag=Pruebas de Embarazo">Pruebas de Embarazo </a></li>
+                                <a href="#"></a>
+                                <li><a href="#"></a><a href="#">Anticonceptivos </a></li>
+                                <li><a href="#">Preservativos </a></li>
+                                <li><a href="#">Pruebas de Embarazo </a></li>
                             </ul>
                         </li>
                     </ul>
@@ -167,28 +167,28 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>NUESTRAS UBICACIONES</h2>
                     <p>Galeno más cerca de ti.</p>
-                    <a href="ubicaciones.aspx?horario=false">
+                    <a href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-1.jpg">
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>¿QUÉ ESTÁS BUSCANDO?</h2>
                     <p>Busca tu marca preferida.</p>
-                    <a href="productos.aspx?tag=">
+                    <a href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-3.jpg">
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>FARMACIAS EN TURNO</h2>
                     <p>24 horas, los 365 días al año.</p>
-                    <a href="ubicaciones.aspx?horario=true">
+                    <a href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-4.jpg">
                     </a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>INFORMACIÓN MEDICAMENTOS</h2>
                     <p>Conoce más nuestros productos.</p>
-                    <a href="productos.aspx?tag=">
+                    <a href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-5.jpg">
                     </a>
                 </div>
@@ -198,7 +198,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-1.png">
                     <h2>Llámanos</h2>
-                    <a href="tel:25069595">
+                    <a href="#">
                         <h2 style="font-weight: bold;">2506-9595</h2>
                     </a>
                 </div>
@@ -207,7 +207,7 @@
                     <h2>Trabaja</h2>
                     <p>con nosotros y forma parte de la familia Galeno.</p>
                     <p>Envía a: rhgaleno@gmail.com</p>
-                    <a href="mailto:rhgaleno@gmail.com?Subject=CV%20Plaza%20Farmacias%20Galeno">
+                    <a href="#">
                         <p class="text-danger" style="font-size: 12px;">Ingresa tu curriculum aquí</p>
                     </a>
                 </div>
@@ -215,7 +215,7 @@
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-3.png">
                     <h2>Aseguradoras</h2>
                     <p>con las que trabajamos.</p>
-                    <a href="aseguradoras.aspx">
+                    <a href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division2-3-1.png">
                     </a>
                 </div>
@@ -232,7 +232,7 @@
                 </div>
                 <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offet-0 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-5.png">
-                    <a href="contactenos.aspx">
+                    <a href="#">
                         <h2>Contáctenos</h2>
                     </a>
                     <p>y déjanos saber qué piensas.</p>

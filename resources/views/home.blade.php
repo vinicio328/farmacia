@@ -17,15 +17,15 @@
             <!-- Right nav -->
             <ul class="nav navbar-nav navbar-right" data-smartmenus-id="15681785530615962" style="margin: 5px 15px">
                 <li>
-                    <a style="background-color: #fff;" href="https://www.facebook.com/farmaciasgalenosa/">
+                    <a style="background-color: #fff;" href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/facebook-footer.png" width="25"></a>
                 </li>
                 <li>
-                    <a style="background-color: #fff;" href="tel:51333300">
+                    <a style="background-color: #fff;" href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/whatsapp-footer.png" width="25"></a>
                 </li>
                 <li>
-                    <a style="background-color: #fff;" href="https://www.twitter.com/farmaciasgaleno">
+                    <a style="background-color: #fff;" href="#">
                         <img src="http://www.farmaciasgaleno.com.gt/images/twitter-footer.png" width="25"></a>
                 </li>
             </ul>
@@ -111,7 +111,7 @@
                 <div class="col-lg-12" style="margin-top:20px;">
                     <div class="marquee" style="text-indent: -19px;">
                         <div class="marquee-text">
-                            <b>Este negocio depende de Dios y de usted...</b>
+                            <b>Desarrollo Web  -  Universidad Mariano Gálvez</b>
                         </div>
                     </div>
                 </div>
