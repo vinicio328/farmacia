@@ -4,20 +4,18 @@
 
     <div class="navbar navbar-search" role="navigation">
         <div class="navbar-collapse collapse">
-            <!-- Left nav -->
-            <ul class="nav navbar-nav" data-smartmenus-id="15681785530595283">
-                <li><a href="programasdesalud.aspx">Programas de Salud</a></li>
-                <li><a href="pdf/suplementoFarmaciasGaleno.pdf">Descargar Suplemento</a></li>
-                <!--<li><a href="#">Mi Cuenta</a></li>-->
-            </ul>
+            
             <div class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input id="tbBuscarProducto" type="text" class="form-control" placeholder="Buscar Medicamento...">
-                </div>
-                <img id="btnBuscarProducto" src="http://www.farmaciasgaleno.com.gt/images/buscar.png" width="30">
+                    <a href="/productos" class="btn btn-success btn-lg">
+                        Buscar Medicamentos
+                        <img id="btnBuscarProducto" src="http://www.farmaciasgaleno.com.gt/images/buscar.png" width="30">
+                    </a>                    
+                </div>                
             </div>
+
             <!-- Right nav -->
-            <ul class="nav navbar-nav navbar-right" data-smartmenus-id="15681785530615962">
+            <ul class="nav navbar-nav navbar-right" data-smartmenus-id="15681785530615962" style="margin: 5px 15px">
                 <li>
                     <a style="background-color: #fff;" href="https://www.facebook.com/farmaciasgalenosa/">
                         <img src="http://www.farmaciasgaleno.com.gt/images/facebook-footer.png" width="25"></a>
