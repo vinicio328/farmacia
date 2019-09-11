@@ -11,8 +11,10 @@
 |
 */
 
+Route::get('/','HomeController@index')->name('home');
+
 Route::group(['middleware'=>['guest']],function(){
-    Route::get('/','Auth\LoginController@showLoginForm');
+
     Route::post('/login', 'Auth\LoginController@login')->name('login');
 });
 
@@ -126,4 +128,4 @@ Route::group(['middleware'=>['auth']],function(){
 
 });
 
-Route::get('/home', 'HomeController@index')->name('home');
+
