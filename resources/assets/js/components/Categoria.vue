@@ -32,7 +32,6 @@
                                     <th>Opciones</th>
                                     <th>Nombre</th>
                                     <th>Descripción</th>
-                                    <th>Estado</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -61,9 +60,9 @@
                                         <div v-else>
                                             <span class="badge badge-danger">Desactivado</span>
                                         </div>
-                                        
+
                                     </td>
-                                </tr>                                
+                                </tr>
                             </tbody>
                         </table>
                         <nav>
@@ -99,7 +98,7 @@
                                     <label class="col-md-3 form-control-label" for="text-input">Nombre</label>
                                     <div class="col-md-9">
                                         <input type="text" v-model="nombre" class="form-control" placeholder="Nombre de categoría">
-                                        
+
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -167,23 +166,23 @@
                 if(!this.pagination.to) {
                     return [];
                 }
-                
-                var from = this.pagination.current_page - this.offset; 
+
+                var from = this.pagination.current_page - this.offset;
                 if(from < 1) {
                     from = 1;
                 }
 
-                var to = from + (this.offset * 2); 
+                var to = from + (this.offset * 2);
                 if(to >= this.pagination.last_page){
                     to = this.pagination.last_page;
-                }  
+                }
 
                 var pagesArray = [];
                 while(from <= to) {
                     pagesArray.push(from);
                     from++;
                 }
-                return pagesArray;             
+                return pagesArray;
 
             }
         },
@@ -211,7 +210,7 @@
                 if (this.validarCategoria()){
                     return;
                 }
-                
+
                 let me = this;
 
                 axios.post('/categoria/registrar',{
@@ -228,7 +227,7 @@
                if (this.validarCategoria()){
                     return;
                 }
-                
+
                 let me = this;
 
                 axios.put('/categoria/actualizar',{
@@ -240,7 +239,7 @@
                     me.listarCategoria(1,'','nombre');
                 }).catch(function (error) {
                     console.log(error);
-                }); 
+                });
             },
             desactivarCategoria(id){
                swal({
@@ -271,15 +270,15 @@
                     }).catch(function (error) {
                         console.log(error);
                     });
-                    
-                    
+
+
                 } else if (
                     // Read more about handling dismissals
                     result.dismiss === swal.DismissReason.cancel
                 ) {
-                    
+
                 }
-                }) 
+                })
             },
             activarCategoria(id){
                swal({
@@ -310,15 +309,15 @@
                     }).catch(function (error) {
                         console.log(error);
                     });
-                    
-                    
+
+
                 } else if (
                     // Read more about handling dismissals
                     result.dismiss === swal.DismissReason.cancel
                 ) {
-                    
+
                 }
-                }) 
+                })
             },
             validarCategoria(){
                 this.errorCategoria=0;
@@ -371,7 +370,7 @@
         }
     }
 </script>
-<style>    
+<style>
     .modal-content{
         width: 100% !important;
         position: absolute !important;
