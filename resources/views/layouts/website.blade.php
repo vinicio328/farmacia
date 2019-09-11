@@ -295,11 +295,12 @@
     <script src="http://www.farmaciasgaleno.com.gt/js/jquery.smartmenus.js"></script>
     <script src="http://www.farmaciasgaleno.com.gt/js/jquery.smartmenus.bootstrap.js"></script>
     <!-- jQuery -->
-    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.js"></script>
     <!-- DataTables -->
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <!-- Bootstrap JavaScript -->
     <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src=//cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
     <!-- App scripts -->
     @stack('scripts')
 

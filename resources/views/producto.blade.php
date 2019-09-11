@@ -9,6 +9,7 @@
         <tr>
             <th>Id</th>
             <th>Nombre</th>
+            <th>Descripcion</th>
             <th>Precio Venta</th>
             <th>Stock</th>
         </tr>
@@ -26,8 +27,9 @@
                 columns: [
                     { data: 'id', name: 'id' },
                     { data: 'nombre', name: 'nombre' },
-                    { data: 'precio_venta', name: 'precio_venta', render: $.fn.dataTable.render.number( ',', '.', 2, 'Q' )},
-                    { data: 'stock', name: 'stock' }
+                    { data: 'descripcion', name: 'descripcion', width: '40%' },
+                    { data: 'precio_venta', name: 'precio_venta', render: $.fn.dataTable.render.number( ',', '.', 2, 'Q' ), width: '5%'},
+                    { data: 'stock', name: 'stock', width: '5%' }
                 ],
 				language: {
 					url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
