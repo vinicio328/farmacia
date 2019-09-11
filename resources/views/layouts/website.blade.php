@@ -297,9 +297,9 @@
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- DataTables -->
-    <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
     <!-- Bootstrap JavaScript -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <!-- App scripts -->
     @stack('scripts')
 

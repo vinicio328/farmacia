@@ -2,9 +2,6 @@
 
 @section('content')
 
-
-
-
     <div class="navbar navbar-search" role="navigation">
         <div class="navbar-collapse collapse">
             <!-- Left nav -->
