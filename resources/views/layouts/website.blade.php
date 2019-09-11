@@ -288,7 +288,7 @@
             </div>
 
             <footer class="footer">
-                <p>© 2016. Farmacias Galeno.</p>
+                <p>© 2019. Farmacias Galeno.</p>
             </footer>
         </div>
     </div>
