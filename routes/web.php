@@ -14,6 +14,9 @@
 Route::get('/','HomeController@index')->name('home');
 Route::get('/productos', 'ProductosController@getIndex')->name('getIndex');
 Route::get('/productodata', 'ProductosController@anyData')->name('producto.data');
+Route::get('/contactanos', function () {
+    return view('contenido/contactanos');
+})->name('contactanos');
 
 
 Route::group(['middleware'=>['guest']],function(){

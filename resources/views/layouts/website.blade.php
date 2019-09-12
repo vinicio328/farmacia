@@ -25,7 +25,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#" style="float: left;">
+                            <a href="{{route('home')}}" style="float: left;">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/logo.png" width="225"/>
                             </a>
                         </li>
@@ -196,7 +196,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-1.png">
                     <h2>Llámanos</h2>
-                    <a href="#">
+                    <a href="{{route('contactanos')}}">
                         <h2 style="font-weight: bold;">2506-9595</h2>
                     </a>
                 </div>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offet-0 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-5.png">
-                    <a href="#">
+                    <a href="{{route('contactanos')}}">
                         <h2>Contáctenos</h2>
                     </a>
                     <p>y déjanos saber qué piensas.</p>

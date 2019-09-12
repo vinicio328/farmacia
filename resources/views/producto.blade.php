@@ -1,3 +1,4 @@
+
 @extends('layouts.website')
 
 
@@ -11,6 +12,7 @@
             <th>Nombre</th>
             <th>Descripcion</th>
             <th>Precio Venta</th>
+            <th>Categoria</th>
             <th>Stock</th>
         </tr>
         </thead>
@@ -29,6 +31,7 @@
                     { data: 'nombre', name: 'nombre' },
                     { data: 'descripcion', name: 'descripcion', width: '40%' },
                     { data: 'precio_venta', name: 'precio_venta', render: $.fn.dataTable.render.number( ',', '.', 2, 'Q' ), width: '10%'},
+                    { data: 'condicion', name: 'condicion' },
                     { data: 'stock', name: 'stock', width: '10%' }
                 ],
 				language: {
