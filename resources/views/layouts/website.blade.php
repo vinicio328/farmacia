@@ -37,7 +37,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="{{route('ubicaciones')}}">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/nuestras-ubicaciones.png">
                             </a>
                         </li>
@@ -165,7 +165,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>NUESTRAS UBICACIONES</h2>
                     <p>Galeno más cerca de ti.</p>
-                    <a href="#">
+                    <a href="{{route('ubicaciones')}}">
                         <img src="http://www.farmaciasgaleno.com.gt/images/division-1.jpg">
                     </a>
                 </div>

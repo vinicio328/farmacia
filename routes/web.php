@@ -18,6 +18,10 @@ Route::get('/contactanos', function () {
     return view('contenido/contactanos');
 })->name('contactanos');
 
+Route::get('/ubicaciones', function () {
+    return view('contenido/ubicaciones');
+})->name('ubicaciones');
+
 
 Route::group(['middleware'=>['guest']],function(){
     Route::get('/login', 'Auth\LoginController@showLoginForm');
