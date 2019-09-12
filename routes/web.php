@@ -22,6 +22,10 @@ Route::get('/ubicaciones', function () {
     return view('contenido/ubicaciones');
 })->name('ubicaciones');
 
+Route::get('/promociones', function () {
+    return view('contenido/promociones');
+})->name('promociones');
+
 
 Route::group(['middleware'=>['guest']],function(){
     Route::get('/login', 'Auth\LoginController@showLoginForm');

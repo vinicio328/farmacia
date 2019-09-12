@@ -32,7 +32,7 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="{{route('promociones')}}">
                                 <img src="http://www.farmaciasgaleno.com.gt/images/descargar-suplemento.png">
                             </a>
                         </li>
@@ -161,7 +161,8 @@
             </div>
 
             @yield('content')
-            <div class="row">
+
+            <div style="margin-left: 15px; margin-right: 15px;" class="row">
                 <div class="col-xs-6 col-sm-6 col-md-3 division">
                     <h2>NUESTRAS UBICACIONES</h2>
                     <p>Galeno más cerca de ti.</p>
@@ -191,7 +192,6 @@
                     </a>
                 </div>
             </div>
-
             <div class="row row-division2">
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 division2">
                     <img src="http://www.farmaciasgaleno.com.gt/images/division2-1.png">
