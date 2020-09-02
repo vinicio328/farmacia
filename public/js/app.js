@@ -35133,9 +35133,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -35212,6 +35209,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }).catch(function (error) {
                 console.log(error);
             });
+        },
+        cargarPdf: function cargarPdf() {
+            window.open('http://localhost:8000/articulo/listarPdf', '_blank');
         },
         selectCategoria: function selectCategoria() {
             var me = this;
@@ -38711,52 +38711,32 @@ var render = function() {
                         [_vm._v("Código")]
                       ),
                       _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-md-9" },
-                        [
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.codigo,
-                                expression: "codigo"
-                              }
-                            ],
-                            staticClass: "form-control",
-                            attrs: {
-                              type: "text",
-                              placeholder: "Código de barras"
-                            },
-                            domProps: { value: _vm.codigo },
-                            on: {
-                              input: function($event) {
-                                if ($event.target.composing) {
-                                  return
-                                }
-                                _vm.codigo = $event.target.value
-                              }
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c(
-                            "barcode",
+                      _c("div", { staticClass: "col-md-9" }, [
+                        _c("input", {
+                          directives: [
                             {
-                              attrs: {
-                                value: _vm.codigo,
-                                options: { format: "EAN-13" }
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.codigo,
+                              expression: "codigo"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "Código de barras"
+                          },
+                          domProps: { value: _vm.codigo },
+                          on: {
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
                               }
-                            },
-                            [
-                              _vm._v(
-                                "\n                                    Generando código de barras.    \n                                "
-                              )
-                            ]
-                          )
-                        ],
-                        1
-                      )
+                              _vm.codigo = $event.target.value
+                            }
+                          }
+                        })
+                      ])
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "form-group row" }, [
@@ -46400,6 +46380,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -46538,6 +46521,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 console.log(error);
             });
         },
+        pdfVenta: function pdfVenta(id) {
+            window.open('http://localhost:8000/venta/pdf/' + id + ',' + '_blank');
+        },
         cambiarPagina: function cambiarPagina(page, buscar, criterio) {
             var me = this;
             //Actualiza la página actual
@@ -46654,10 +46640,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 me.articulo = '';
                 me.cantidad = 0;
                 me.precio = 0;
+<<<<<<< HEAD
 				me.stock = 0;
                 me.codigo = '';
                 me.descuento = 0;
                 me.arrayDetalle = [];
+=======
+                me.stock = 0;
+                me.codigo = '';
+                me.descuento = 0;
+                me.arrayDetalle = [];
+                window.open('http://localhost:8000/venta/pdf/' + response.data.id + ',' + '_blank');
+>>>>>>> origin/new_master
             }).catch(function (error) {
                 console.log(error);
             });
@@ -46957,6 +46951,22 @@ var render = function() {
                                       }
                                     },
                                     [_c("i", { staticClass: "icon-eye" })]
+                                  ),
+                                  _vm._v(
+                                    "  \n                                    "
+                                  ),
+                                  _c(
+                                    "button",
+                                    {
+                                      staticClass: "btn btn-info btn-sm",
+                                      attrs: { type: "button" },
+                                      on: {
+                                        click: function($event) {
+                                          _vm.pdfVenta(venta.id)
+                                        }
+                                      }
+                                    },
+                                    [_c("i", { staticClass: "icon-doc" })]
                                   ),
                                   _vm._v(
                                     "  \n                                    "

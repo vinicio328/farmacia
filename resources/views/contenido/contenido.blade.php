@@ -4,7 +4,7 @@
     @if(Auth::check())
             @if (Auth::user()->idrol == 1)
             <template v-if="menu==0">
-                <h1>Escritorio</h1>
+            <h1>____________</h1><span><img src="img/galeno2.jpg"  width="1350" height="610"></span>
             </template>
 
             <template v-if="menu==1">
